@@ -1,0 +1,99 @@
+.landing {
+  background-color: black;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.line-separator{
+height:1px;
+background:#717171;
+border-bottom:1px solid #313030;
+}
+
+li {
+  color: white;
+  display: inline;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+.featured {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+  margin-top: 90px;
+}
+
+.big-clip {
+  float: left;
+  top: 1px;
+}
+
+.aboutbox {
+
+}
+
+
+.about1 {
+  float: left;
+  margin: 1em;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align : center;
+  padding : 2em;
+  border : 0.1em solid white;
+  width  : 4em;
+  height : 4em;
+  border-radius: 100%;
+
+}
+
+.para1 {
+  color: white;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+}
+
+.ion-social-youtube-outline {
+  color: white;
+     font-size: 5rem;
+}
+.ion-ios-mic-outline {
+  color: white;
+     font-size: 5rem;
+}
+.ion-ios-person-outline {
+  color: white;
+     font-size: 5rem;
+}
+.ion-ios-email-outline {
+  color: white;
+     font-size: 5rem;
+}
+
+.points {
+  position: relative;
+     display: table;
+     width: 100%;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+.icon {
+  color: white;
+  display: table-cell;
+     position: relative;
+     width: 33.3%;
+     padding: 2rem;
+     text-align: center;
+}
+
+.icon-point {
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
