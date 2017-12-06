@@ -1,3 +1,4 @@
+
 .landing {
   background-color: black;
   max-width: 960px;
@@ -96,17 +97,11 @@ p {
 
 .icon-point1 {
   color: white;
-  display: table-cell;
-     position: relative;
-  color: white;
   font-size: 1.25rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 .icon-point2 {
-  color: white;
-  display: table-cell;
-     position: relative;
   color: white;
   font-size: 1.25rem;
   font-family: 'Montserrat', sans-serif;

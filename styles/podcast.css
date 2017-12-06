@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+}
