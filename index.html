@@ -17,7 +17,7 @@
 
   <nav>
     <ul>
-      <li><a id="video-link" href="cast.html">Rainbow Six: Siege</a></li>
+      <li>Rainbow Six: Siege</a></li>
       <li>Fortnite: Battle Royale</li>
       <li>Call Of Duty: WW2</li>
       <li>7 Days To Die</li>
@@ -43,27 +43,27 @@
   <section class="points">
              <div class="icon" id="icon1">
                  <span class="ion-social-youtube-outline"></span>
-                 <input id="bttn1" type='button' value='Watch Our Videos' onclick="setTimeout('window.alert(\'Now it should load the video page.\')', 2000)"/>
+                 <input class="nav-button" id="bttn1" data-link='videos.html' type='button' value='Watch Our Videos'/>
                </div>
 
                <div class="icon" id="icon2">
                  <span class="ion-ios-mic-outline"></span>
-                 <input id="bttn2" type='button' value='Listen To Our Podcast' onclick="setTimeout('window.alert(\'Now it should load the podcast page.\')', 2000)"/>
+                 <input class="nav-button" id="bttn2" data-link='podcast.html' type='button' value='Listen To Our Podcast'/>
                </div>
 
                <div class="icon" id="icon3">
                  <span class="ion-ios-person-outline"></span>
-                 <input id="bttn3" type='button' value='Get To Know Us' onclick="setTimeout('window.alert(\'Now it should load the cast page.\')', 2000)"/>
+                 <input class="nav-button" id="bttn3" data-link="cast.html" type='button' value='Get To Know Us'/>
+
                 </div>
 
                <div class="icon" id="icon4">
                  <span class="ion-ios-email-outline"></span>
-                 <input id="bttn4" type='button' value='Talk To Us' onclick="setTimeout('window.alert(\'Now it should load the contact page.\')', 2000)"/>
+                 <input class="nav-button" id="bttn4" data-link="contact.html" type='button' value='Talk To Us'/>
                  </div>
   </section>
-  <script src="https://code.jquery.com/jquery-2.1.3.min.js">
-
-  </script>
-<script src="scripts/landing.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="scripts/landing.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 </html>

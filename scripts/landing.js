@@ -25,3 +25,22 @@ $('#icon4').on('click', function(){
 
 });
 });
+
+var buttons = document.getElementsByClassName('nav-button');
+
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('click', myLink1);
+}
+
+<!--funct1 -->
+function myLink1(){
+  var buttonLink = this.dataset.link;
+  window.setTimeout(function() {
+    window.location.assign(buttonLink);
+  }, 2000);
+}
+
+function slowLink1(){
+
+  window.location.assign(buttonLink);
+}

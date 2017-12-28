@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Cast Page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="styles/cast.css">
   </head>
   <body class="landing">
@@ -48,8 +49,25 @@
 
   <div id="jacob">
     <img id="jacob-pic" src="images/jacobpic.png" alt="jacob picture">
-    <h2 class="popup5" onclick="homiePopUp5()">Jacob Hoffman<span class="popuptext5" id="popUpContent5">Jacob is a very nice young man.</span>
-    </h2>
+    <div class="jacob-box">
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black" id="jacob-button">Jacob Hoffman</button>
+<div id="id01" class="jacob-bio-container w3-animate-opacity">
+  <div class="w3-modal-content w3-card-4">
+   <header class="jacob-header">
+     <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2 id="jacob-title">Jacob Hoffman</h2>
+      </header>
+      <div class="jacob-content">
+        <p id = "jacob-bio">Jacob Hoffman of Denison, Texas was born in 1872 to Marjie and Jeff Hoffman.
+        Boisterous and pround, Jacob attempts to dominate the competition time and time again, no matter what stage or setting he finds himself in. Despite his confidence, Jacob is known to fail often; in game and in life.</p>
+      </div>
+      <footer class="jacob-footer">
+        <p id="jacob-footer-text">The Peacock</p>
+      </footer>
+    </div>
+  </div>
+</div>
   </div>
 </section>
 <script src="scripts/cast.js"></script>

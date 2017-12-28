@@ -4,6 +4,52 @@ body {
   margin: 0 auto;
 }
 
-h1 {
+.line-separator {
+  height:1px;
+  background:#717171;
+  border-bottom:1px solid #313030;
+}
+
+#video-title {
   color: white;
+  text-align: center;
+}
+
+
+.video-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1/5;
+  position: relative;
+  right: 300px;
+}
+.two {
+  grid-column: 2 / 3;
+  grid-row: 1 / 5;
+  position: relative;
+  right: 300px;
+
+}
+.three {
+  grid-column: 3/4;
+  grid-row: 1 / 5;
+  position: relative;
+  right: 300px;
+}
+.four {
+  grid-column: 4/5;
+  grid-row: 1/5;
+  position: relative;
+  right: 300px;
+}
+
+iframe {
+  height: 250px;
+  width: 330px;
+  padding: 30px;
 }
